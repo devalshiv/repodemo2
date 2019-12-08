@@ -17,7 +17,7 @@ namespace Demo2.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
-rtrtre
+
         public AccountController()
         {
         }
