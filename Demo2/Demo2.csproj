@@ -281,8 +281,9 @@
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+	<MSBuildExtensionsPath32>C:\Program Files\MSBuild</MSBuildExtensionsPath32>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-	<MSBuildExtensionsPath>C:\Program Files\MSBuild</MSBuildExtensionsPath>
+	
   </PropertyGroup>
 
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
